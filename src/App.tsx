@@ -1,24 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Product from './compondents/Product';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+            
+     <Product imag='https://m.media-amazon.com/images/I/61nF5ekaaPL._SS460_.jpg' 
+     heading='Blue Star 1 Ton 3 Star Convertible 
+     5 in 1 Cooling Inverter Split AC (Copper, Multi 
+     Sensors, Dust Filters, Smart Ready, Blue Fins, 
+     Self Diagnosis, 2023Model, IC312YNU,White)' pric={2300} butnn='Add to cart'/>
     </div>
   );
 }
