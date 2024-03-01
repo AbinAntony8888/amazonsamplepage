@@ -8,7 +8,7 @@ function CustButton({ butn }: btn) {
     <div>
       {/* <h3 id="cartmsg">add to cart</h3> */}
       <button
-        className="btnc"
+        className="bg-yellow-600 px-2 py-1  rounded-xl "
         onClick={() => {
           alert(myBtn);
         }}

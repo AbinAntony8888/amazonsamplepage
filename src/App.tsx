@@ -78,10 +78,16 @@ function App() {
   getProductsFromServer();
 
   return (
-    <div className="App">
+    <div className="App bg-black h-screen flex flex-row gap-4 items-center justify-center text-white">
+
+      {/* <div className="bg-green-600 h-full w-full ">A</div>
+      <div className="bg-yellow-600 h-full w-full ">B</div>
+      <div className="bg-red-600 h-full w-full ">c</div> */}
       {products.map((product) => {
         return <ProductItem imag={product.imag} heading={product.heading} pric={product.pric} butnn={product.butnn} />;
       })}
+
+      {/* <button className="bg-[#2596be] px-4 py-2 m-10 rounded-full text-white">enter</button> */}
     </div>
   );
 }
