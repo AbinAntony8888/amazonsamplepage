@@ -78,7 +78,7 @@ function App() {
   getProductsFromServer();
 
   return (
-    <div className="App bg-black h-screen flex flex-row gap-4 items-center justify-center text-white">
+    <div className="App bg-[#ece5e5] h-screen flex flex-row gap-4 items-center justify-center text-white">
 
       {/* <div className="bg-green-600 h-full w-full ">A</div>
       <div className="bg-yellow-600 h-full w-full ">B</div>
